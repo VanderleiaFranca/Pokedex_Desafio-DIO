@@ -7,47 +7,48 @@
 }
 
 .normal {
-    background-color: #a6a877;
+    background: linear-gradient(325deg, #202016 10%, #747653 30%, #a6a877 70%, #f1f48b 100%);
 }
 
 .grass {
-    background-color: #77c850;
+    background: linear-gradient(325deg, #041101 10%, #18570a 30%, #39eb11 70%, #e9f6e7 100%);
 }
 
 .fire {
-    background-color: #ee7f30;
+    background: linear-gradient(325deg, #140101 10%, #850a0a 30%, #fb1919 70%, #f3a60c 100%);
 }
 
 .water {
-    background-color: #678fee;
-}
-
-.electric {
-    background-color: #f7cf2e;
+    background: linear-gradient(325deg, #050226 10%, #0e20e0 30%, #3a65f2 70%, #0be6df 100%);
 }
 
 .ice {
-    background-color: #98d5d7;
+    background: linear-gradient(325deg, #07bcf8 10%, #3ec6f4 30%, #86d7f1 70%, #7cdafa 100%);
+}
+
+.electric {
+    background: linear-gradient(325deg, #04232e 10%, #2b97bb 30%, #86d7f1 70%, #cbeaf4 100%);
 }
 
 .ground {
-    background-color: #dfbf69;
+    background: linear-gradient(325deg, #0a0202 10%, #a8b720 30%, #a52a2a 70%, #f7a6a6 100%);
 }
 
 .flying {
-    background-color: #a98ff0;
+    background: linear-gradient(325deg, #16b494 10%, #cf92e7 30%, #04efd0 70%, #0c3e3d 100%);
+
 }
 
 .poison {
-    background-color: #a040a0;
+    background: linear-gradient(325deg, #ebd403 10%, #eded07 30%, #ffee00 70%, #f4f49f 100%);
 }
 
 .fighting {
-    background-color: #bf3029;
+    background: linear-gradient(325deg, #1d010a 10%, #9f0b3c 30%, #9b1d4b 70%, #e94390 100%);
 }
 
 .psychic {
-    background-color: #f65687;
+    background: linear-gradient(325deg, #1d0114 10%, #ad0c7c 30%, #e77bc7 70%, #f4ddea 100%);
 }
 
 .dark {
@@ -55,27 +56,27 @@
 }
 
 .rock {
-    background-color: #b8a137;
+    background: linear-gradient(325deg, #0a0202 10%, #671a1a 30%, #a52a2a 70%, #280505 100%);
 }
 
 .bug {
-    background-color: #a8b720;
+    background: linear-gradient(325deg, #323608 10%, #a8b720 30%, #d7e742 70%, #95a40f 100%);
 }
 
 .ghost {
-    background-color: #6e5896;
+    background: linear-gradient(325deg, #575757 10%, #808080 30%, #cdcccc 70%, #ffffff 100%);
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background: linear-gradient(325deg, #020202 10%, #313030 30%, #676666 70%, #b7b7b7 100%);
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background: linear-gradient(325deg, #f6b911 10%, #398f0b 30%, #ff8000 70%, #00ff99 100%);
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background: linear-gradient(325deg, #3b2935 10%, #f9aec7 30%, #c295a4 70%, #f4ddea 100%);
 }
 
 .pokemon {
@@ -137,13 +138,16 @@
 }
 
 .pagination button {
-    padding: .25rem .5rem;
+    padding: 0.8rem 0.8rem;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: 1rem;
     color: #fff;
-    background-color: #6c79db;
+    background: linear-gradient(325deg, #000000 0%, #5a5959 30%, #9e9b9b 70%, #000000 100%);
     border: none;
     border-radius: 1rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
